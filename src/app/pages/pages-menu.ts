@@ -44,6 +44,20 @@ export const MENU_ITEMS: NbMenuItem[] = [
     ],
   },
   {
+    title: 'Produtos',
+    icon: 'layout-outline',
+    children: [
+      {
+        title: 'Cadastro de produtos',
+        link: '/pages/layout/stepper',
+      },
+      {
+        title: 'Listagem de produtos',
+        link: '/pages/layout/list',
+      },
+    ],
+  },
+  {
     title: 'Forms',
     icon: 'edit-2-outline',
     children: [
