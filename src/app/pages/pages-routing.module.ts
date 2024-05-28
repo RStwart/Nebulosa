@@ -64,6 +64,11 @@ const routes: Routes = [{
         .then(m => m.TablesModule),
     },
     {
+      path: 'produtos',
+      loadChildren: () => import('./produtos/produtos.module')
+        .then(m => m.ProdutosModule),
+    },
+    {
       path: 'miscellaneous',
       loadChildren: () => import('./miscellaneous/miscellaneous.module')
         .then(m => m.MiscellaneousModule),
