@@ -3,7 +3,7 @@ import { Routes, RouterModule } from '@angular/router';
 
 import { ProdutosComponent } from './produtos.component';
 import { CadProdutosComponent } from './cad-produtos/cad-produtos.component';
-// import { TreeGridComponent } from './tree-grid/tree-grid.component';
+
 
 const routes: Routes = [{
   path: '',
@@ -20,10 +20,10 @@ const routes: Routes = [{
   imports: [RouterModule.forChild(routes)],
   exports: [RouterModule],
 })
+
 export class ProdutosRoutingModule { }
 
 export const routedComponents = [
   ProdutosComponent,
   CadProdutosComponent,
-  // TreeGridComponent,
 ];

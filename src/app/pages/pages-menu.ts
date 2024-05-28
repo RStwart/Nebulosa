@@ -49,7 +49,7 @@ export const MENU_ITEMS: NbMenuItem[] = [
     children: [
       {
         title: 'Cadastro de produtos',
-        link: '/pages/produtos',
+        link: '/pages/produtos/cad-produtos',
       },
       {
         title: 'Listagem de produtos',

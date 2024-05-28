@@ -4,6 +4,5 @@ import { Component } from '@angular/core';
   selector: 'ngx-produtos',
   template: `<router-outlet></router-outlet>`,
 })
-
 export class ProdutosComponent {
 }
