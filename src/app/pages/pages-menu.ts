@@ -13,6 +13,20 @@ export const MENU_ITEMS: NbMenuItem[] = [
     link: '/pages/iot-dashboard',
   },
   {
+    title: 'Produtos',
+    icon: 'layout-outline',
+    children: [
+      {
+        title: 'Cadastro de produtos',
+        link: '/pages/produtos/cad-produtos',
+      },
+      {
+        title: 'Listagem de produtos',
+        link: '/pages/layout/list',
+      },
+    ],
+  },
+  {
     title: 'FEATURES',
     group: true,
   },
@@ -40,20 +54,6 @@ export const MENU_ITEMS: NbMenuItem[] = [
         title: 'Tabs',
         pathMatch: 'prefix',
         link: '/pages/layout/tabs',
-      },
-    ],
-  },
-  {
-    title: 'Produtos',
-    icon: 'layout-outline',
-    children: [
-      {
-        title: 'Cadastro de produtos',
-        link: '/pages/produtos/cad-produtos',
-      },
-      {
-        title: 'Listagem de produtos',
-        link: '/pages/layout/list',
       },
     ],
   },
